@@ -1,0 +1,19 @@
+{
+    "alphabet":["a","b"],
+    "states":["q0", "q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9"],
+    "transitions":[
+        {"fromState":"q0","toState":"q1","withSymbol":""},
+        {"fromState":"q0","toState":"q9","withSymbol":""},
+        {"fromState":"q1","toState":"q2","withSymbol":"a"},
+        {"fromState":"q2","toState":"q3","withSymbol":""},
+        {"fromState":"q3","toState":"q4","withSymbol":""},
+        {"fromState":"q3","toState":"q6","withSymbol":""},
+        {"fromState":"q4","toState":"q5","withSymbol":"a"},
+        {"fromState":"q6","toState":"q7","withSymbol":"b"},
+        {"fromState":"q5","toState":"q8","withSymbol":""},
+        {"fromState":"q7","toState":"q8","withSymbol":""},
+        {"fromState":"q8","toState":"q9","withSymbol":""},
+        {"fromState":"q8","toState":"q1","withSymbol":""}],
+    "startState":"q0",
+    "finalStates":["q9"]
+}

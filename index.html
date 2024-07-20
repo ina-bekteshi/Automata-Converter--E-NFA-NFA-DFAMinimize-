@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Automate</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <link rel="stylesheet" href="style.css">
+ <script src="https://unpkg.com/gojs"></script> <!--per te perdorur librarin gojs pa npm po me link external-->
+</head>
+<body>
+  <h1><img src="imgs/circle-nodes-solid.svg" width="50px" height="50px">  Automata Converter (E-NFA &#8594; NFA &#8594; DFA 	&#8594; Minimize) <img src="imgs/share-nodes-solid.svg" width="50px" height="50px"> </h1>
+  <div id="myDiagramDiv" style="width: 100%; height: 75vh; border: 1px solid black;"></div>
+  <form action="index.html" method="POST">
+    <input type="file" id="e-nfa">
+    <input type="submit" id="display-enfa" value="Display E-NFA">
+    <input type="submit" id="convert-to-nfa" value="Convert To NFA" disabled>
+    <input type="submit" id="convert-to-dfa" value="Convert To DFA" disabled>
+    <input type="submit" id="minimize" value="Minimize DFA" disabled>
+  </form>
+  <script type="module" src="script.js"></script>
+</body>
+</html>

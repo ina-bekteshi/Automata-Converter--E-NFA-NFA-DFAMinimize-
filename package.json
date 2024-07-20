@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "gojs": "^2.3.13"
+  },
+  "type": "module"
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#e-nfa{
+    font-size: 30px;
+    border: 5px solid rgb(122, 13, 13);
+    background-color: rgb(224, 185, 185);
+    color: rgb(122, 13, 13);
+    border-radius: 55px;
+    height: 50px;
+    width: 450px;
+    margin: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
+ input[type=submit]{
+    margin: 5px;
+    padding: 10px;
+    font-size: 26px;
+    width: 250px;
+    height: 60px;
+    border-radius: 35px;
+    border: 5px solid green;
+    color: green;
+    background-color: rgb(198, 230, 203);
+    cursor: pointer;
+ }
+ input[type=file]::file-selector-button {
+    margin-right: 5px;
+    border: none;
+    background: #910606;
+    padding: 10px 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+ form{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ h1{
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 44px;
+    color: #1b0691;
+  }

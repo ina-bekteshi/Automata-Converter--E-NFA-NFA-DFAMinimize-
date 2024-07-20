@@ -1,0 +1,13 @@
+{
+    "alphabet":["a","b"],
+    "states":["q0","q1","q2","q3","q4"],
+    "transitions":[
+        {"fromState":"q0","toState":"q1","withSymbol":"a"},
+        {"fromState":"q0","toState":"q1","withSymbol":""},
+        {"fromState":"q0","toState":"q2","withSymbol":""},
+        {"fromState":"q1","toState":"q3","withSymbol":"b"},
+        {"fromState":"q2","toState":"q3","withSymbol":"a"},
+        {"fromState":"q3","toState":"q4","withSymbol":""}],
+    "startState":"q0",
+    "finalStates":["q4"]
+}
